@@ -15,17 +15,13 @@ npm install --save react-neumorphism-ui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-neumorphism-ui'
+import ExampleComponent from 'react-neumorphism-ui'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <ExampleComponent text='Modern React component module' />
     )
   }
 }
 ```
-
-## License
-
-MIT © [Amit Kumar](https://github.com/Amit Kumar)
